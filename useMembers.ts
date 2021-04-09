@@ -7,7 +7,7 @@ export class MembersBase<T> {
         this.afterSetDeps();
     }
     /**
-     * for overloading in inherited classes
+     * for overriding in descendants
      */
     protected afterSetDeps() {}
 }
