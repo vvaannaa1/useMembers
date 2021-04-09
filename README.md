@@ -9,11 +9,9 @@ interface IProps {
 }
 
 export function SomeComponent(props: IProps) {
-
     const { prop1, prop2 } = props;
     const [value1, setValue1] = React.useState(0);
     const [value2, setValue2] = React.useState("some text");
-
 
     const onEvent1 = React.useCallback(() => {
         // ... some code using prop1 and value1 
@@ -42,7 +40,6 @@ interface IProps {
 }
 
 export function SomeComponent(props: IProps) {
-
     const { prop1, prop2 } = props;
     const [value1, setValue1] = React.useState(0);
     const [value2, setValue2] = React.useState("some text");
